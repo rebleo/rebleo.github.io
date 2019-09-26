@@ -1,0 +1,46 @@
+body {
+	background-color: pink;
+	font-family: 'Molengo', sans-serif;
+}
+
+nav {
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	/* background-color: rgba(0,0,0, .9); */
+	font-family: Avenir, sans-serif;
+	height: 10vh;
+	background-color: rgba(0,0,0, .9);
+
+}
+
+
+.thisItem a {
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(200,200,200);
+	padding: 2vw;
+	text-decoration: none;
+}
+
+.thisItem a:visited {
+	color: white;
+}
+.thisItem a:hover {
+	color: pink;
+}
+
+#theList {
+	/* background-color: green; */
+	display:flex;
+}
+
+.listItem {
+	background-color: grey;
+	padding: 1vh;
+	margin: 10px;
+}
+
+.listItem a:hover{
+	background-color: pink;
+}
