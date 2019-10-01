@@ -28,6 +28,7 @@ nav {
 }
 .thisItem a:hover {
 	color: pink;
+	font-size: 32px;
 }
 
 #theList {
