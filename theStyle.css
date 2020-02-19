@@ -17,9 +17,9 @@ nav {
 
 #theSemesters {
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
-		background-color: rgba(255,255,255,.5);
+	flex-direction: column;
+	/* align-items: center; */
+	background-color: rgba(255,255,255,.5);
 	border-radius: 50px;
 	margin: 3vh;
 	margin-left: auto;
@@ -27,9 +27,21 @@ nav {
 	width: 50vw;
 }
 
-.thisSemester {
+#theSemesters section {
+	background-color: green;
+	text-align: center;
+	padding: 2vw;
+	margin: 2vh;
+	background-color: pink;
+	border-radius: 50px;
+	width: 200px
+}
+#theSemesters a {
+	font-size: 26px;
+}
 
-	background-color: rgba(200,0,50,.5);
+#theSemesters a:hover{
+	color: hotpink;
 }
 .thisItem a {
 	font-weight: bold;
@@ -47,10 +59,7 @@ nav {
 	font-size: 32px;
 }
 
-#theList {
-	/* background-color: green; */
-	display:flex;
-}
+
 
 .listItem {
 	background-color: grey;

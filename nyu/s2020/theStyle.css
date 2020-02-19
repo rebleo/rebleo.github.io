@@ -1,0 +1,40 @@
+body {
+	background-color: white;
+	font-family: 'Molengo', sans-serif;
+}
+
+h1 {
+ text-align: center;
+ padding: 3vw;
+ background-color: gray;
+
+}
+#nyuNav {
+	background-color: rgba(180,180,180);
+	display: flex;
+	flex-direction: column;
+
+}
+#nyuNav section {
+	background-color: darkgreen;
+	text-align: center;
+	padding: 2vw;
+	margin: 2vh;
+	background-color: rebeccapurple;
+	border-radius: 50px;
+	width: 200px
+}
+
+#nyuNav a {
+		color: white;
+		text-decoration: none;
+		font-size: 24px;
+
+}
+#nyuNav a:visited {
+	color: royalblue;
+}
+
+#nyuNav a:hover {
+	color: rgba(0,255,0);
+}
