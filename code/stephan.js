@@ -5,7 +5,7 @@ oG = 200;
 oB = 100;
 function setup (){
 	background (0);
-	createCanvas (800, 800);
+	createCanvas (windowWidth, windowHeight);
 
 	frameRate(24);
 	initOrb = new Orb(400.0, 400.0, 70, 0.0, null, oR, oG, oB); // create the base Orb with x and y coords, size, flexibility, children, and original r, g, and b
