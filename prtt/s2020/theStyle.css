@@ -1,0 +1,40 @@
+body {
+	background-color: white;
+	font-family: 'Molengo', sans-serif;
+}
+
+h1 {
+ text-align: center;
+ padding: 3vw;
+ background-color: gray;
+
+}
+#prttNav {
+	background-color: rgba(180,180,180);
+	display: flex;
+	flex-direction: column;
+
+}
+#prttNav section {
+	background-color: green;
+	text-align: center;
+	padding: 2vw;
+	margin: 2vh;
+	background-color: pink;
+	border-radius: 50px;
+	width: 200px
+}
+
+#prttNav a {
+		color: white;
+		text-decoration: none;
+		font-size: 24px;
+
+}
+#prttNav a:visited {
+	color: rebeccapurple;
+}
+
+#prttNav a:hover {
+	color: rgba(0,255,0);
+}
