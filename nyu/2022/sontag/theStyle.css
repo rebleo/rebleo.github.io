@@ -15,20 +15,27 @@ h4 {
 }
 
 details {
-    background-color: rgba(100,100,100,.15);
+    /* background-color: rgba(100,100,100,.15); */
     padding: 10px;
 
 }   
 
 details:hover {
-    background-color: pink;
-    color:grey;
+    color:rebeccapurple;
 }
 
-details a:hover {
+ details a:hover {
     color: green;
-    font-size:36px;
    
+}
+
+
+
+a:hover {
+    color:green;
+}
+a:visited{
+    color: hotpink;
 }
 
 ul {
