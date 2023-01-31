@@ -100,7 +100,7 @@ var r = new Rune({
     theTime = Date.now() - theStart;
     location.reload()
     
-    }, 7000);  
+    }, 4000);  
     
     
     var title;
